@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 5120544890496992331}
+--- !u!114 &5120544890496992331
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfaeda0c19343b41b57f7355cb84ab8, type: 3}
+  m_Name: RadianceCascades2DGIVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  isActive:
+    m_OverrideState: 1
+    m_Value: 1
+  cascadeCount:
+    m_OverrideState: 1
+    m_Value: 6
+  renderScale:
+    m_OverrideState: 1
+    m_Value: 0.8
+  rayRange:
+    m_OverrideState: 1
+    m_Value: 1
+  skyRadiance:
+    m_OverrideState: 1
+    m_Value: 0
+  skyColor:
+    m_OverrideState: 0
+    m_Value: {r: 0.2, g: 0.5, b: 1, a: 1}
+  sunColor:
+    m_OverrideState: 0
+    m_Value: {r: 10, g: 7, b: 1, a: 10}
+  sunAngle:
+    m_OverrideState: 1
+    m_Value: 2
