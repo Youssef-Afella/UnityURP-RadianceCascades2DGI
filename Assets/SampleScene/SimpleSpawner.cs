@@ -58,6 +58,7 @@ public class SimpleSpawner : MonoBehaviour, IPointerClickHandler
         foreach (Transform t in balls) {
             Destroy(t.gameObject);
         }
+        balls = new List<Transform>();
     }
 
     float hue = 0;
