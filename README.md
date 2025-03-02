@@ -3,7 +3,7 @@ A Realtime 2D Global Illumination for Unity URP.</br>
 It's practically a 2D implementation of Radiance Cascades by [Alexander Sannikov](https://drive.google.com/file/d/1L6v1_7HY2X-LV3Ofb6oyTIxgEaP4LOI6/view) based on [GM Shaders](https://gmshaders.com/) articles.
 
 ## Preview Video
-Tested on RTX 3060: 
+Tested on RTX 3060: https://youtu.be/Yp045Kanq5A
 
 ## How to Use
 Import the "RC2DGI" folder to your project, then add the "RadianceCascades2DGI" renderer feature to your URP Renderer Asset.</br>
